@@ -1,10 +1,8 @@
 
-# Desafio-basico-be
-
-**A ideia do desafio é testar não só o conhecimento técnico, mas também a qualidade do código.**
+# Desafio-basico
 
 
-## Criar aplicação JAVA utilizando SpringBoot
+## Aplicação JAVA utilizando SpringBoot
 
 **Requisitos:**
 - Java8+
@@ -14,33 +12,30 @@
 - MongoDB
 
 
-*Não há restrições de uso de frameworks/ferramentas.*
-
-
-### Criar um serviço simples de cadastro e busca de usuario com 2 endpoints:
+### Serviço simples de cadastro e busca de usuario com 2 endpoints:
 
 
 
-#### Criar Endpoint de cadastro de usuario com os seguintes dados de entrada:
+#### Endpoint de cadastro de usuario com os seguintes dados de entrada:
 	- Nome
 	- Data Nascimento
 	- CEP
 	- Documento
 
 
-**O Serviço deve obrigatoriamente utilizar uma api para preencher os dados de endereço com o CEP:**
+**O Serviço utilizar uma api para preencher os dados de endereço com o CEP:**
 	
 - **https://viacep.com.br/**
 
-Obs: De preferencia ao uso com JSON
+Obs: Uso com JSON
 
 
-**Regras**:
-1. Caso CEP seja inválido deve retornar um erro amigavel.
+**Etapas**:
+1. Caso CEP seja inválido, retorna um erro amigavel.
 
-2. Data de nascimento deve ter o padrão dd/MM/YYYY.
+2. Data de nascimento com o padrão dd/MM/YYYY.
 
-3. Caso tudo esteja correto deve ser armazenado no banco de dados os seguintes dados:
+3. Caso tudo esteja correto será armazenado no banco de dados os seguintes dados:
 	- Nome do usuario
 	- Idade
 	- Cidade
@@ -49,13 +44,13 @@ Obs: De preferencia ao uso com JSON
 	- Documento
 
 
-### Criar endpoint de busca de usuario pelo documento:
+### Endpoint de busca de usuario pelo documento:
 
 **Regras**:
 
- 1. Caso documento invalido retornar um erro amigavel.
+ 1. Caso documento invalido, retorna um erro amigavel.
 
- 2. Caso tudo esteja correto deve-se retornar os seguintes dados do usuario:
+ 2. Caso tudo esteja correto, retorna os seguintes dados do usuario:
 	- Nome do usuario
 	- Idade
 	- Cidade
@@ -63,9 +58,5 @@ Obs: De preferencia ao uso com JSON
 	- Estado
 	- Documento
 
-
-
-#### OBS:
-**Criar uma documentação descrevendo como rodar o projeto.**
 
 
