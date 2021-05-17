@@ -4,7 +4,7 @@
 
 ## Aplicação JAVA utilizando SpringBoot
 
-**Requisitos:**
+**Ferramentas:**
 - Java8+
 - Testes Unitarios
 - Maven/Gradle
